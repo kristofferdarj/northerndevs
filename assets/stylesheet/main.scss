@@ -79,7 +79,7 @@
 
 //Hero
 .hero {
-  background-image: url('{{baseurl}}/assets/images/hero_background.jpg');
+  background-image: url('{{site.baseurl}}/assets/images/hero_background.jpg');
   background-size: cover;
   border-bottom: 3px solid $color-accent;
   align-items: center;
@@ -115,7 +115,7 @@
   width:100%;
   height:100%;
   display:block;
-  background: transparent url('{{baseurl}}/assets/images/hero_clouds.png') repeat top center;
+  background: transparent url('{{site.baseurl}}/assets/images/hero_clouds.png') repeat top center;
   z-index: 2;
 }
 
