@@ -1,0 +1,192 @@
+---
+# Main sass file
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "_modules/reset",
+        "_modules/mixins",
+        "_modules/typography",
+        "_modules/colours";
+* {
+  box-sizing: border-box;
+}
+::selection {
+  background-color: $color-accent;
+  color: $color-white;
+}
+.body {
+  background-color: $color-pageBg;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+	@extend .font-text;
+}
+.inner {
+  width: calc(100vw - 30px);
+  margin: 0 auto;
+
+  @media(min-width: 600px)
+  {
+      width: calc(100% - 30px);
+      min-width: 0;
+      max-width: calc(100% - 30px);
+  }
+  @media(min-width: 1024px)
+  {
+      width: calc(1024px - 30px);
+      max-width: calc(1024px - 30px);
+  }
+}
+.header {
+  align-items: center;
+  background-color: $color-headerBackground;
+  align-items: center;
+  display: flex;
+  height: 45px;
+  justify-content: space-between;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+
+  @media(min-width: 720px) {
+      height: 60px;
+  }
+}
+.inner--header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  align-items: center;
+  display: flex;
+}
+.logo_symbol {
+  height: 50px;
+  margin-right: 10px;
+}
+.logo_text {
+  @extend .font-text;
+  color: $color-logo;
+  line-height: 1;
+  text-decoration: none;
+}
+.hero {
+  background-image: url('/assets/images/hero_background.jpg');
+  background-size: cover;
+  border-bottom: 3px solid #E76FA3;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  min-height: 310px;
+  padding: 45px 0 30px 0;
+}
+.hero_headline {
+	@extend .headlineLargest;
+	@include textShadow();
+	color: $color-textSecondary;
+	text-align: center;
+    padding: 0 15px 0.3em 15px;
+}
+.section {
+  display: flex;
+  width: 100%;
+}
+
+//Presentation
+.description {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 30vh;
+  padding: 30px 0;
+}
+.description_headline {
+  @extend .headlineLarge;
+  margin-bottom: 0.7em;
+  text-align: center;
+}
+.description_text {
+  font-family: 'Roboto Condensed';
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 1.5em;
+  max-width: 33em;
+  text-align: center;
+
+  &:last-child {
+      margin-bottom: 0;
+  }
+}
+
+//CTAS
+.section--description {
+  background-color: $color-sectionBackground;
+}
+.cta-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4em 0;
+
+  @media(min-width: 600px) {
+    flex-direction: row;
+  }
+}
+.cta_divider {
+  background-color: $color-divider;
+  display: none;
+  width: 2px;
+
+  @media(min-width: 600px) {
+    display: block;
+  }
+}
+.cta {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 2em;
+  flex-basis: 200px;
+  text-align: center;
+
+  @media(min-width: 600px) {
+    flex-basis: 400px;
+  }
+}
+.cta_button {
+  background-color: $color-accent;
+  border-radius: 30px;
+  color: $color-textSecondary;
+  cursor: pointer;
+  margin: 1em 0;
+  padding: 1em;
+
+  &:hover {
+    background-color: darken($color-accent, 5%);
+  }
+}
+.cta_button--secondary {
+  background-color: $color-complement;
+
+  &:hover {
+    background-color: darken($color-complement, 5%);
+  }
+}
+.flex_filler {
+  display: flex;
+  flex-grow: 1;
+}
+.footer {
+	color: $color-text;
+	padding: 4em 2em 2em 2em;
+	text-align: center;
+}

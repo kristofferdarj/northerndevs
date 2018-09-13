@@ -1,0 +1,73 @@
+//Font family
+$fontFamily-default: 'Roboto Condensed', sans-serif;
+$fontFamily-secondary: 'Roboto', sans-serif;
+
+/* Line heights */
+$lineHeight-base: 1.5;
+$lineHeight-headline: 1.2;
+
+/* Fontweights */
+$fontWeight-light: 	300;
+$fontWeight-normal: 400;
+$fontWeight-medium: 500;
+$fontWeight-bold: 700;
+
+.font-text {
+	font-family: $fontFamily-secondary;
+	font-size: 18px;
+	font-weight: $fontWeight-light;
+	line-height: $lineHeight-base;
+}
+
+.headline_common {
+	font-family: $fontFamily-default;
+	line-height: 1.2;
+}
+
+.headlineLargest
+{
+	@extend .headline_common;
+	font-size: 32px;
+	font-weight: 400;
+
+	@media(min-width: 381px)
+	{
+		font-size: 10vw;
+	}
+
+	@media(min-width: 900px)
+	{
+		font-size: 64px;
+	}
+}
+.headlineLarge
+{
+	@extend .headline_common;
+	font-size: 24px;
+
+	@media(min-width: 380px)
+	{
+		font-size: 7vw;
+	}
+
+	@media(min-width: 580px)
+	{
+		font-size: 40px;
+	}
+}
+.headlineMedium
+{
+	@extend .headline_common;
+	font-size: 20px;
+    line-height: 1.4;
+
+	@media(min-width: 380px)
+	{
+		font-size: 5vw;
+	}
+	@media(min-width: 580px)
+	{
+		font-size: 30px;
+	}
+
+}

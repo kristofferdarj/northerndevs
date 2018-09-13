@@ -1,0 +1,36 @@
+/* Use this to generate names
+ * http://chir.ag/projects/name-that-color/
+ */
+ $color-white: #FFF;
+ $color-black: #000;
+
+ //Blues
+ $color-gallery:		#EEEEEE;
+
+ //Greys
+ $color-woodsmoke:		#131516;
+ $color-grey30:			rgba(0,0,0,0.30);
+
+ //Greens
+ $color-sulu: #a3e76f;
+
+ //Pink
+ $color-deepBlush:  #E76FA3;
+
+ // --- USAGE OF COLORS ------
+ $color-pageBg:				      $color-white;
+ $color-headerBackground:    rgba(255,255,255,0.8);
+ $color-sectionBackground:  $color-gallery;
+
+ $color-accent:             $color-deepBlush;
+ $color-complement:         $color-sulu;
+ $color-divider:            $color-accent;
+ $color-boxShadow:          $color-grey30;
+
+ $color-text:				        $color-woodsmoke;
+ $color-textSecondary:      $color-white;
+
+ $color-logo:               $color-black;
+
+
+ $color-heroBorder: $color-accent;
