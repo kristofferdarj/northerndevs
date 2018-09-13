@@ -8,7 +8,7 @@ email: kristoffer.darj@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Northern Devs är ett community för att skapa kontakt mellan utvecklare i Norra Sverige, både backend och frontend.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://northerndevs.se" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kristofferdarj.github.io/northerndevs/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
