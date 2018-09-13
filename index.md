@@ -6,6 +6,7 @@ layout: default
 ---
 <div class="hero">
   <h1 class="hero_headline">För en roligare gemenskap bland Jämtlands&nbsp;utvecklare</h1>
+  <div class="clouds"></div>
 </div>
 <section class="section section--description">
     <div class="inner description">
