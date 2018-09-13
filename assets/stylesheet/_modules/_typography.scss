@@ -9,8 +9,6 @@ $lineHeight-headline: 1.2;
 /* Fontweights */
 $fontWeight-light: 	300;
 $fontWeight-normal: 400;
-$fontWeight-medium: 500;
-$fontWeight-bold: 700;
 
 .font-text {
 	font-family: $fontFamily-secondary;
@@ -21,7 +19,8 @@ $fontWeight-bold: 700;
 
 .headline_common {
 	font-family: $fontFamily-default;
-	line-height: 1.2;
+	font-weight: $fontWeight-normal;
+	line-height: $lineHeight-headline;
 }
 
 .headlineLargest
@@ -54,20 +53,4 @@ $fontWeight-bold: 700;
 	{
 		font-size: 40px;
 	}
-}
-.headlineMedium
-{
-	@extend .headline_common;
-	font-size: 20px;
-    line-height: 1.4;
-
-	@media(min-width: 380px)
-	{
-		font-size: 5vw;
-	}
-	@media(min-width: 580px)
-	{
-		font-size: 30px;
-	}
-
 }
