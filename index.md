@@ -17,7 +17,7 @@ layout: default
 <section class="section section--announcement">
   <div class="inner description">
     <h2 class="description_headline">Anmäl dig till vecka 42!</h2>
-    <p class="description_text">Under vecka 42 (14:e - 18:e Okt) kommer en radda företag hålla frukost-, lunch- och AW-föreläsningar. <a class="link link--secondary" href="/week42">Läs mer</a> och anmäl dig nu, begränsat antal platser.</p>
+    <p class="description_text">14:e - 18:e oktober kommer en radda företag hålla frukost-, lunch- och AW-föreläsningar. <a class="link link--secondary" href="/week42">Läs mer</a> och anmäl dig nu, begränsat antal platser.</p>
   </div>
 </section>
 <section class="section section--cta">
