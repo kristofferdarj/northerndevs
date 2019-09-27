@@ -50,8 +50,7 @@ Beräknad tidsåtgång är 30-45 minuter.'
     time: '16:30 - 19:30'
     name: 'Kodar-bloopers och andra war stories'
     location: 'Gomorron Östersund'
-    description: 'Ibland går det åt skogen i systemutvecklingsprojekt. Att det blir fel ibland är mänskligt, och går inte att undvika. Det viktiga är då att vi lär oss av misstagen för att hela tiden förbättras.
-Välkommen på ett avslappnat AW-häng med oss på Cygni Östersund. Vi berättar om några goa kodarbloopers vi gjort, andra war stories och vad vi lärt oss av dem. Du är också välkommen att dela med dig av dina! Vi bjuder på mat och dryck, och vi stannar så länge det finns folk kvar. För och med systemutvecklare!'
+    description: 'Ibland går det åt skogen i systemutvecklingsprojekt. Att det blir fel ibland är mänskligt, och går inte att undvika. Det viktiga är då att vi lär oss av misstagen för att hela tiden förbättras.<br><br>Välkommen på ett avslappnat AW-häng med oss på Cygni Östersund. Vi berättar om några goa kodarbloopers vi gjort, andra war stories och vad vi lärt oss av dem. Du är också välkommen att dela med dig av dina! Vi bjuder på mat och dryck, och vi stannar så länge det finns folk kvar. För och med systemutvecklare!'
   - date: '16:e'
     time: '7:30 - 8:15'
     name: 'Jämtland Härjedalen ledande inom E-hälsa'
@@ -77,9 +76,7 @@ I dagens föreläsning väver Magnus in anekdoter från sin egna karriär inom I
     time: '12:00 - 13:00'
     name: 'Fraud Detection'
     location: 'Gomorron Östersund'
-    description: 'Sopra Steria bjuder in till en föreläsning kring fraud detection med hjälp av datanalyser och AI. Hur samlas data in och koordineras mellan länder för att spåra produkter från produktion till konsumtion samt hur används AI för att upptäcka bedrägerier.
-
-Serge de Gosson de Varennes är Data Scientist och seniorkonsult på Sopra Steria. Han har efter ett antal år av forskning i matematik arbetat hos oss som specialist inom Analytics, AI och Machine Learning för t.ex. befolkningssimulering, hälso- och sjukvård och fraud detection. Serge är en av Sopra Steria Sveriges experter inom avancerad analys, datastrategi och artificiell intelligens.
+    description: 'Sopra Steria bjuder in till en föreläsning kring fraud detection med hjälp av datanalyser och AI. Hur samlas data in och koordineras mellan länder för att spåra produkter från produktion till konsumtion samt hur används AI för att upptäcka bedrägerier.<br><br>Serge de Gosson de Varennes är Data Scientist och seniorkonsult på Sopra Steria. Han har efter ett antal år av forskning i matematik arbetat hos oss som specialist inom Analytics, AI och Machine Learning för t.ex. befolkningssimulering, hälso- och sjukvård och fraud detection. Serge är en av Sopra Steria Sveriges experter inom avancerad analys, datastrategi och artificiell intelligens.
 
 Föreläsningen riktar sig till systemutvecklare och kommer att hållas på svenska.'
   - date: '17:e'
