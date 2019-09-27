@@ -13,6 +13,83 @@ url: "https://northerndevs.se" # the base hostname & protocol for your site, e.g
 # Build settings
 markdown: kramdown
 
+navigation:
+  - text: Vecka42
+    url: /week42
+
+events:
+  - date: '14:e'
+    time: '7:30 - 8:30'
+    name: 'Future of Mobile Apps'
+    location: 'Gomorron Östersund'
+    description: 'Bontouch bjuder in till föreläsning om Future of mobile apps på Gomorron Östersund. De bjuder på frukost i samband med föreläsningen!'
+  - date: '14:e'
+    time: '12:00 - 13:00'
+    name: 'UX'
+    location: 'Gomorron Östersund'
+    description: 'Bontouch Östersund bjuder in till föreläsning om UX på Gomorron Östersund. De bjuder på lunch i samband med föreläsningen!'
+  - date: '14:e'
+    time: '16:30 - 19:30'
+    name: 'Kubernetes'
+    location: 'Gomorron Östersund'
+    description: 'DigitalRoute  bjuder in till föreläsning om Kubernetes på Gomorron Östersund. De bjuder på dryck och snacks i samband med föreläsningen!'
+  - date: '15:e'
+    time: '7:30 - 8:15'
+    name: 'ATEA'
+    location: 'ATEA Östersund'
+    description: 'ATEA bjuder in till föreläsning om ATEA Business på sitt kontor i Östersund (Öneslingan 7). De bjuder på frukost i samband med föreläsningen!'
+  - date: '15:e'
+    time: '12:00 - 13:00'
+    name: 'Clean Code'
+    location: 'Cybercom'
+    description: 'Cybercom Östersund bjuder in till föreläsning om Clean Code på vårt kontor på Rådhusgatan 56 i Östersund. Vi  bjuder på enklare lunch (wraps + dryck) i samband med föreläsningen!<br><br>
+En föreläsning som riktar sig till yrkesverksamma juniora och seniora systemutvecklare där vi tittar djupare på varför kodkvalité är viktigt och vilka faktorer som påverkar systemets livscykel och oss som individer.
+Föreläsare är Henrik Kindvall, anställd på Cybercom i Östersund.
+Beräknad tidsåtgång är 30-45 minuter.'
+  - date: '15:e'
+    time: '16:30 - 19:30'
+    name: 'Kodar-bloopers och andra war stories'
+    location: 'Gomorron Östersund'
+    description: 'Ibland går det åt skogen i systemutvecklingsprojekt. Att det blir fel ibland är mänskligt, och går inte att undvika. Det viktiga är då att vi lär oss av misstagen för att hela tiden förbättras.
+Välkommen på ett avslappnat AW-häng med oss på Cygni Östersund. Vi berättar om några goa kodarbloopers vi gjort, andra war stories och vad vi lärt oss av dem. Du är också välkommen att dela med dig av dina! Vi bjuder på mat och dryck, och vi stannar så länge det finns folk kvar. För och med systemutvecklare!'
+  - date: '16:e'
+    time: '7:30 - 8:15'
+    name: 'Jämtland Härjedalen ledande inom E-hälsa'
+    location: 'E-Hälsocentrum'
+    description: 'Sigma och E-hälsocentrum bjuder in till föreläsning om Jämtland Härjedalen ledande inom E-hälsa på E-hälsocentrum. De bjuder på frukost i samband med föreläsningen!'
+  - date: '16:e'
+    time: '12:00 - 13:00'
+    name: 'Monitoring Health Application'
+    location: 'Tieto'
+    description: 'Tieto Östersund bjuder in till föreläsning om Monitoring Health Application på sitt kontor i Östersund (Kyrkgatan 60). De bjuder på lunch i samband med föreläsningen!'
+  - date: '16:e'
+    time: '16:30 - 19:30'
+    name: 'Microservices'
+    location: 'House Be'
+    description: 'Forefront consulting bjuder in till föreläsning om Microservices på House Be i Åre (Kurortsvägen 20). De bjuder på snacks och dryck i samband med föreläsningen!'
+  - date: '17:e'
+    time: '7:30 - 8:30'
+    name: 'Det vinnande laget'
+    location: 'Gomorron Östersund'
+    description: 'Sopra Steria bjuder in till en frukostföreläsning med Magnus Swartling, fd IT-konsult och trefaldig världsmästare i Curling. Magnus åker land och rike runt med sin föreläsning "Jaget och Laget" som handlar om hur du ger dig själv mandatet att bestämma din egen väg framåt och hur laget och jaget behöver fungera ihop för att skapa härliga resultat.
+I dagens föreläsning väver Magnus in anekdoter från sin egna karriär inom IT-branschen.'
+  - date: '17:e'
+    time: '12:00 - 13:00'
+    name: 'Fraud Detection'
+    location: 'Gomorron Östersund'
+    description: 'Sopra Steria bjuder in till en föreläsning kring fraud detection med hjälp av datanalyser och AI. Hur samlas data in och koordineras mellan länder för att spåra produkter från produktion till konsumtion samt hur används AI för att upptäcka bedrägerier.
+
+Serge de Gosson de Varennes är Data Scientist och seniorkonsult på Sopra Steria. Han har efter ett antal år av forskning i matematik arbetat hos oss som specialist inom Analytics, AI och Machine Learning för t.ex. befolkningssimulering, hälso- och sjukvård och fraud detection. Serge är en av Sopra Steria Sveriges experter inom avancerad analys, datastrategi och artificiell intelligens.
+
+Föreläsningen riktar sig till systemutvecklare och kommer att hållas på svenska.'
+  - date: '17:e'
+    time: '16:30 - 19:30'
+    name: 'Blockchain'
+    location: 'CGI'
+    description: 'CGI Östersund (Rådhusgatan 15 - 17) bjuder in till föreläsning om Blockchain med nyutnämnde MVP:n Stephen Haunts (stephenhaunts.com) på CGI:s kontor i Östersund.
+Efter föreläsningen bjuder vi på AW, skönt eftersnack, pizza, snacks och dryck.
+Anmälan är öppen även för studenter från de tekniska utbildningarna Programvaruteknik och Informatik med inriktning systemutveckling.'
+
 sass:
     sass_dir: assets/stylesheet
 assets:
@@ -24,9 +101,9 @@ assets:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
+exclude:
+   - Gemfile
+   - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/

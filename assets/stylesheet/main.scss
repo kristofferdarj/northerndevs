@@ -23,6 +23,13 @@
   position: relative;
 	@extend .font-text;
 }
+.link {
+  border-bottom: 2px solid;
+  text-decoration: none;
+}
+.link--secondary {
+  color: $color-white;
+}
 .inner {
   width: calc(100vw - 30px);
   margin: 0 auto;
@@ -76,6 +83,16 @@
   line-height: 1;
   text-decoration: none;
 }
+.mainNavigation_link {
+  @extend .font-text;
+  color: $color-mainNavigationLink;
+  padding: 0.2em;
+  text-decoration: none;
+}
+.mainNavigation_link:hover {
+  background-color: $color-mainNavigationLink;
+  color: $color-white;
+}
 
 //Hero
 .hero {
@@ -119,9 +136,39 @@
   z-index: 2;
 }
 
+//Hero Week42
+.hero-week42 {
+  background-color: $color-accent;
+  background-image: url('{{site.baseurl}}/assets/images/hero_backgroundweek42.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 3px solid $color-accent;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  min-height: 310px;
+  padding: 45px 0 30px 0;
+  position: relative;
+}
+
 .section {
   display: flex;
   width: 100%;
+}
+
+.section--announcement {
+  background-color: $color-announcementBackground;
+  color: $color-announcementText;
+}
+.section--registration {
+  justify-items: center;
+}
+.section--schedule {
+  align-content: center;
+  justify-content: center;
+  padding: 30px 0;
 }
 
 //Presentation
@@ -208,6 +255,36 @@
     background-color: darken($color-complement, 8%);
   }
 }
+
+//Week 42
+.events {
+  display: flex;
+  flex-direction: column;
+}
+.event_item {
+  border-bottom: 1px $color-eventsDivider solid;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+  max-width: 500px;
+  padding-bottom: 1em;
+}
+.event_metadata {
+  padding-right: 1em;
+}
+.event_date {
+  @extend .headline_common;
+  font-size: 32px;
+}
+.event_time {
+  @extend .font-text;
+  font-size: 14px;
+}
+.event_name {
+  @extend .headline_common;
+  font-weight: bold;
+}
+
 .flex_filler {
   display: flex;
   flex-grow: 1;

@@ -1,5 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
@@ -15,6 +14,12 @@ layout: default
         <p class="description_text">Vi är en rörelse som inte är knuten till något företag utan uppstått spontant utifrån behov. Däremot vill vi synliggöra de företag som finns i närområdet för att bygga en starkare gemenskap över&nbsp;arbetsgivargränserna.</p>
     </div>
 </section>
+<section class="section section--announcement">
+  <div class="inner description">
+    <h2 class="description_headline">Anmäl dig till vecka 42!</h2>
+    <p class="description_text">Under vecka 42 (14:e - 18:e Okt) kommer en radda företag hålla frukost-, lunch- och AW-föreläsningar. <a class="link link--secondary" href="/week42">Läs mer</a> och anmäl dig nu, begränsat antal platser.</p>
+  </div>
+</section>
 <section class="section section--cta">
   <div class="inner cta-wrapper">
     <div class="cta">
@@ -24,7 +29,7 @@ layout: default
     <div class="cta_divider"></div>
     <div class="cta">
       Få din dagliga dos av katt-giffar genom att gå med i vår&nbsp;slack.
-      <a class="cta_button cta_button--secondary" href="https://join.slack.com/t/northerndevs/shared_invite/enQtNDMyMjE0NDM5NTM4LWUzYmU2ZGE4ZTFkYjRhN2NmMjk2ZDU4YzNmYTk4ZDA5YmY2OGJkMGU1ZDJmZjMyNTAyZjk1ZTEwNWQ2NmZmZTM">Registera dig på slack</a>
+      <a class="cta_button cta_button--secondary" href="https://join.slack.com/t/northerndevs/shared_invite/enQtNDMyMjE0NDM5NTM4LTliMDdlNjRkYWYxMmVhNmVjN2QxN2QxYTM5YjlmMDFiZWVhYzI1YmIzNTc3MDkzYzU5ZjM0YjY4ZDBkOGE0YmQ">Registera dig på slack</a>
     </div>
   </div>
 </section>
