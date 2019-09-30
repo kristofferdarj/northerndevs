@@ -13,7 +13,7 @@ Veckan är ett arrangemang av IT-bolagen i regionen för utvecklare och kommer b
     </div>
 </section>
 <section class="section section--registration">
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdds0R7AGLt_7-EYXRkD2Eyxj9o4d0s09GgU_nXus9MIcMLAQ/viewform?embedded=true" width="100%" frameborder="0" marginheight="0" marginwidth="0">Läser in …</iframe>
+  <iframe class="registration_iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSdds0R7AGLt_7-EYXRkD2Eyxj9o4d0s09GgU_nXus9MIcMLAQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Läser in …</iframe>
 </section>
 <section class="section section--schedule">
     <div class="events">
@@ -31,6 +31,6 @@ Veckan är ett arrangemang av IT-bolagen i regionen för utvecklare och kommer b
           </li>
         {% endfor %}
       </ul>
-      <p>Du hittar <a class="link" href="https://www.facebook.com/events/2378004445813028">alla events</a> och kan läsa mer om <a class="link" href="https://www.facebook.com/northerndevsweek/">Northern Devs Week</a> på facebook</p>
+      <p class="events_footer">Du hittar <a class="link" href="https://www.facebook.com/events/2378004445813028">alla events</a> och kan läsa mer om <a class="link" href="https://www.facebook.com/northerndevsweek/">Northern Devs Week</a> på facebook</p>
     </div>
 </section>
