@@ -140,7 +140,7 @@
 .hero-week42 {
   background-color: $color-accent;
   background-image: url('{{site.baseurl}}/assets/images/hero_backgroundweek42.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-bottom: 3px solid $color-accent;
@@ -259,11 +259,13 @@
 
 //Week 42
 .registration_iframe {
-  width: 100%;
   height: 600px;
+  margin: 0 auto 0 auto;
+  width: 350px;
 
-  @media(min-width: 600px) {
-    height: 1900px;
+  @media(min-width: 640px) {
+    height: 1950px;
+    width: 640px
   }
 }
 .events {
@@ -293,6 +295,11 @@
 .event_name {
   @extend .headline_common;
   font-weight: bold;
+}
+.event_location {
+  @extend .font-text;
+  font-weight: bold;
+  margin-bottom: 1em;
 }
 .events_footer {
   line-height: 1.9em;

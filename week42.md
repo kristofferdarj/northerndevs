@@ -13,7 +13,7 @@ Veckan är ett arrangemang av IT-bolagen i regionen för utvecklare och kommer b
     </div>
 </section>
 <section class="section section--registration">
-  <iframe class="registration_iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSdds0R7AGLt_7-EYXRkD2Eyxj9o4d0s09GgU_nXus9MIcMLAQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Läser in …</iframe>
+  <iframe class="registration_iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSdds0R7AGLt_7-EYXRkD2Eyxj9o4d0s09GgU_nXus9MIcMLAQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </section>
 <section class="section section--schedule">
     <div class="events">
@@ -26,6 +26,7 @@ Veckan är ett arrangemang av IT-bolagen i regionen för utvecklare och kommer b
             </div>
             <div class="event_content">
               <h3 class="event_name">{{ event.name }}</h3>
+              <h4 class="event_location">{{ event.location }}</h4>
               <span class="event_description">{{ event.description }}</span>
             </div>
           </li>
