@@ -201,6 +201,11 @@
       margin-bottom: 0;
   }
 }
+.description_text--notice {
+  background-color: $color-accent;
+  color: $color-white;
+  padding: 1em;
+}
 
 //CTAS
 .cta-wrapper {
