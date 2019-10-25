@@ -136,40 +136,13 @@
   z-index: 2;
 }
 
-//Hero Week42
-.hero-week42 {
-  background-color: $color-accent;
-  background-image: url('{{site.baseurl}}/assets/images/hero_backgroundweek42.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-bottom: 3px solid $color-accent;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 85vh;
-  min-height: 310px;
-  padding: 45px 0 30px 0;
-  position: relative;
-}
-
 .section {
   display: flex;
   width: 100%;
 }
-
-.section--announcement {
-  background-color: $color-announcementBackground;
-  color: $color-announcementText;
-}
 .section--registration {
   justify-items: center;
   padding: 2em 0;
-}
-.section--schedule {
-  align-content: center;
-  justify-content: center;
-  padding: 30px 0;
 }
 
 //Presentation
@@ -200,11 +173,6 @@
   &:last-child {
       margin-bottom: 0;
   }
-}
-.description_text--notice {
-  background-color: $color-accent;
-  color: $color-white;
-  padding: 1em;
 }
 
 //CTAS
@@ -260,54 +228,6 @@
   &:hover {
     background-color: darken($color-complement, 8%);
   }
-}
-
-//Week 42
-.registration_iframe {
-  height: 600px;
-  margin: 0 auto 0 auto;
-  width: 350px;
-
-  @media(min-width: 640px) {
-    height: 1950px;
-    width: 640px
-  }
-}
-.events {
-  display: flex;
-  flex-direction: column;
-  padding: 0 16px;
-}
-.event_item {
-  border-bottom: 1px $color-eventsDivider solid;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 1em;
-  max-width: 500px;
-  padding-bottom: 1em;
-}
-.event_metadata {
-  padding-right: 1em;
-}
-.event_date {
-  @extend .headline_common;
-  font-size: 32px;
-}
-.event_time {
-  @extend .font-text;
-  font-size: 14px;
-}
-.event_name {
-  @extend .headline_common;
-  font-weight: bold;
-}
-.event_location {
-  @extend .font-text;
-  font-weight: bold;
-  margin-bottom: 1em;
-}
-.events_footer {
-  line-height: 1.9em;
 }
 
 .flex_filler {

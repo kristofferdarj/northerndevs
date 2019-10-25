@@ -14,12 +14,6 @@ layout: default
         <p class="description_text">Vi är en rörelse som inte är knuten till något företag utan uppstått spontant utifrån behov. Däremot vill vi synliggöra de företag som finns i närområdet för att bygga en starkare gemenskap över&nbsp;arbetsgivargränserna.</p>
     </div>
 </section>
-<section class="section section--announcement">
-  <div class="inner description">
-    <h2 class="description_headline">Anmäl dig till vecka 42!</h2>
-    <p class="description_text">14:e - 18:e oktober kommer en radda företag hålla frukost-, lunch- och AW-föreläsningar. <a class="link link--secondary" href="/week42">Läs mer</a> och anmäl dig nu, begränsat antal platser.</p>
-  </div>
-</section>
 <section class="section section--cta">
   <div class="inner cta-wrapper">
     <div class="cta">
