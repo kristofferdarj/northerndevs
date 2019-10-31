@@ -266,6 +266,7 @@
   }
 }
 .company_logo {
+  max-height: calc(150px - 16px);
   max-width: calc(150px - 16px);
 }
 
