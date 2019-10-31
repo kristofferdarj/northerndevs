@@ -9,13 +9,15 @@
 
  //Greys
  $color-woodsmoke:		#131516;
- $color-grey30:			rgba(0,0,0,0.30);
+ $color-grey10:	    	rgba(0,0,0,0.1);
+ $color-grey30:       rgba(0,0,0,0.3);
 
  //Greens
  $color-sulu: #a3e76f;
 
  //Pink
  $color-deepBlush:  #E76FA3;
+ $color-deepBlushTransparent: rgba(231,111,163,0.3);
 
  // --- USAGE OF COLORS ------
  $color-pageBg:				      $color-white;
@@ -26,9 +28,8 @@
  $color-accent:             $color-deepBlush;
  $color-complement:         $color-sulu;
  $color-divider:            $color-accent;
- $color-boxShadow:          $color-grey30;
-
- $color-eventsDivider:      $color-grey30;
+ $color-boxShadow:          $color-grey10;
+ $color-boxShadowActive:    $color-grey30;
 
  $color-announcementBackground: $color-accent;
  $color-announcementText:       $color-white;
