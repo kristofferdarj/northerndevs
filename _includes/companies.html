@@ -4,7 +4,8 @@
     <h3 class="headline_small company_category">Konsultbolag</h3>
     <p class="section_description">De företag vi tycker bäst beskrivs som konsultbolag.</p>
     <div class="companies_wrapper">
-      {% for company in site.companies.consultants %}
+      {% assign sortedConsultants = (site.companies.consultants | sort_natural: 'name') %}
+      {% for company in sortedConsultants %}
         <a {% if company.background %} style="background-color: {{ company.background }}" {% endif %} class="company" title="{{ company.name }}" href="{{ company.url }}">
           <img src="{{ '/assets/images/logos/' |relative_url }}{{ company.image }}" class="company_logo" />
         </a>
@@ -13,7 +14,8 @@
     <h3 class="headline_small company_category">Produktbolag</h3>
     <p class="section_description">De företag vi tycker bäst beskrivs som produktbolag.</p>
     <div class="companies_wrapper">
-        {% for company in site.companies.product %}
+        {% assign sortedProducts = (site.companies.product | sort_natural: 'name') %}
+        {% for company in sortedProducts %}
           <a {% if company.background %} style="background-color: {{ company.background }}" {% endif %} class="company" title="{{ company.name }}" href="{{ company.url }}">
             <img src="{{ '/assets/images/logos/' |relative_url }}{{ company.image }}" class="company_logo" />
           </a>
