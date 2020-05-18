@@ -55,7 +55,7 @@ companies:
       image: 'cybercom.jpeg'
     - name: 'Cygni'
       url: 'https://cygni.se'
-      image: 'cygni.png'
+      image: 'cygni.jpg'
     - name: 'Digitalist'
       url: 'https://www.digitalist.se/'
       image: 'digitalist.png'
