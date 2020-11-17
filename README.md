@@ -1,2 +1,2 @@
 # northerndevs
-To run: > bundle exec jekyll run
+To run: > bundle exec jekyll serve
